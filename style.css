@@ -1,0 +1,26 @@
+* {
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    
+}
+
+.container {
+    width: 800px;
+    padding: 10px;
+    max-width: 20%;
+    background-color: gray;
+    border-radius: 5px;
+    
+}
+
+.btn {
+   margin-top: 20px;
+   background-color: green;
+   color: white;
+}
+
