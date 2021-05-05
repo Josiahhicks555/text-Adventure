@@ -3,17 +3,18 @@ alert("Welcome to my text Adventure");
 
 
 //Adventure
-const textElement = document.getElementById('text');
+const textAdventure = document.getElementById('text');
 
 
 //choice responses
-const optionButtonElement = document.getElementById('options');
+const optionButton = document.getElementById('options');
 
 let changes = {}
 
 
-function start() {
+function startAdventure() {
     changes = {}
+    text(1)
     
 }
 
@@ -29,6 +30,19 @@ function responses(options) {
 }
 
 const firstText = [{
+    id: 1, text:"You and your friend are walking through the woods. You start messing around when you see a hung tree next to a cliff. As you look at the tree you see something. What do you do ",
+    options:[
+    {
+        text:'keep walking and act like you did not see it',
+    },
+    {
+        text:'Climb the tree trying to get to the top',
+    },
+    {
+        text:'Or you can go home and end your adventure',
+    },
+]
+
 
 }
 ]
